@@ -6,9 +6,9 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.entities.*;
 import org.folio.inventoryupdate.updating.instructions.ProcessingInstructionsDeletion;
-import org.folio.okapi.common.OkapiClient;
 
 import java.util.ArrayList;
 import java.util.Collection;

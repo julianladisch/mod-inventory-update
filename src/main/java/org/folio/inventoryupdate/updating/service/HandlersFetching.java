@@ -4,13 +4,13 @@ import io.vertx.core.Future;
 import io.vertx.core.Promise;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.InventoryQuery;
 import org.folio.inventoryupdate.updating.InventoryStorage;
 import org.folio.inventoryupdate.updating.QueryByHrid;
 import org.folio.inventoryupdate.updating.QueryByUUID;
 import org.folio.inventoryupdate.updating.UpdateRequest;
 import org.folio.inventoryupdate.updating.entities.InstanceReferences;
-import org.folio.okapi.common.OkapiClient;
 
 import java.util.ArrayList;
 import java.util.HashMap;

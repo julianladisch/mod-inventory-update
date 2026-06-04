@@ -4,7 +4,7 @@ import io.vertx.core.Future;
 import io.vertx.core.Promise;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
-import org.folio.okapi.common.OkapiClient;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 
 public class OrdersStorage {
 

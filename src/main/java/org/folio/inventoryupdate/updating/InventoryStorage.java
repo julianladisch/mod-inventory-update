@@ -7,6 +7,7 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.entities.HoldingsRecord;
 import org.folio.inventoryupdate.updating.entities.Instance;
 import org.folio.inventoryupdate.updating.entities.InstanceReferences;
@@ -15,7 +16,6 @@ import org.folio.inventoryupdate.updating.entities.InventoryRecord.Entity;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord.Transaction;
 import org.folio.inventoryupdate.updating.entities.InventoryRecordSet;
 import org.folio.inventoryupdate.updating.entities.Item;
-import org.folio.okapi.common.OkapiClient;
 
 import io.vertx.core.Future;
 import io.vertx.core.Promise;

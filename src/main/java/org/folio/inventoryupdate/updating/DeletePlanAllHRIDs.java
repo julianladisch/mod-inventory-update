@@ -2,13 +2,13 @@ package org.folio.inventoryupdate.updating;
 
 import io.vertx.core.Future;
 import io.vertx.core.Promise;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.entities.HoldingsRecord;
 import org.folio.inventoryupdate.updating.entities.Instance;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord;
 import org.folio.inventoryupdate.updating.entities.Item;
 import org.folio.inventoryupdate.updating.foreignconstraints.OrdersStorage;
 import org.folio.inventoryupdate.updating.instructions.ProcessingInstructionsDeletion;
-import org.folio.okapi.common.OkapiClient;
 
 import static org.folio.inventoryupdate.updating.entities.InventoryRecord.Transaction.DELETE;
 

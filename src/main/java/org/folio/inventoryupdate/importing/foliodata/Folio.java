@@ -3,7 +3,6 @@ package org.folio.inventoryupdate.importing.foliodata;
 import io.vertx.ext.web.RoutingContext;
 import java.util.HashMap;
 import java.util.Map;
-import org.folio.okapi.common.OkapiClient;
 import org.folio.okapi.common.WebClientFactory;
 import org.folio.okapi.common.XOkapiHeaders;
 

@@ -7,11 +7,11 @@ import java.util.Set;
 
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.ErrorReport.ErrorCategory;
 import org.folio.inventoryupdate.updating.entities.*;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord.Transaction;
 import org.folio.inventoryupdate.updating.instructions.ProcessingInstructionsUpsert;
-import org.folio.okapi.common.OkapiClient;
 
 import io.vertx.core.Future;
 import io.vertx.core.Promise;

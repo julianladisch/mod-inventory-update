@@ -10,10 +10,10 @@ import java.util.stream.Stream;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.entities.*;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord.Entity;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord.Transaction;
-import org.folio.okapi.common.OkapiClient;
 
 import io.vertx.core.Future;
 import io.vertx.core.Promise;

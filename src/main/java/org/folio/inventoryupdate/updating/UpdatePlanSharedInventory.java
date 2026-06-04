@@ -11,13 +11,13 @@ import org.folio.inventoryupdate.updating.entities.Instance;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord;
 import org.folio.inventoryupdate.updating.entities.PairedRecordSets;
 import org.folio.inventoryupdate.updating.entities.RecordIdentifiers;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 import org.folio.inventoryupdate.updating.entities.HoldingsRecord;
 import org.folio.inventoryupdate.updating.entities.InventoryRecordSet;
 import org.folio.inventoryupdate.updating.entities.Item;
 import org.folio.inventoryupdate.updating.entities.InventoryRecord.Transaction;
 import org.folio.inventoryupdate.updating.entities.Repository;
 import org.folio.inventoryupdate.updating.entities.RepositoryByMatchKey;
-import org.folio.okapi.common.OkapiClient;
 
 import io.vertx.core.Future;
 import io.vertx.core.Promise;

@@ -4,8 +4,8 @@ import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpServerRequest;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.RoutingContext;
-import org.folio.okapi.common.OkapiClient;
 import org.folio.inventoryupdate.importing.foliodata.Folio;
+import org.folio.inventoryupdate.importing.foliodata.OkapiClient;
 
 public abstract class UpdateRequest {
   protected Vertx vertx;
